@@ -1,0 +1,130 @@
+* {
+  font-family: Monaco, sans-serif;
+
+}
+
+.App {
+  margin-top: 30px;
+  margin-left: 35%;
+  width: fit-content;
+
+}
+
+.commentContainer {
+  margin-top: 6px;
+  background-color: #d3d3d3e0;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+  width: 300px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: #569dff;
+}
+
+.commentContainer:hover {
+  background-color: #d3d3d3bf;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+
+
+}
+
+.inputContainer>span {
+  margin-top: 5px;
+}
+
+.inputContainer__input {
+  margin: 6px 0 0px 0;
+  padding: 5px;
+  display: flex;
+  width: 400px;
+  height: 100px;
+  border: 2px solid rgb(95, 151, 208);
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #e7e7e7;
+  /* width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px; */
+  resize: both;
+}
+
+
+
+;
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.first_input {
+  margin: 0;
+}
+
+.commentContainer>span {
+  margin: 0 5px;
+}
+
+.reply {
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #3e976a;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.comment {
+  color: #ffffff;
+  background-color: #569dff;
+  letter-spacing: 0.8px;
+}
+
+.Delete {
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #e63a3a;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.text-lg {
+  font-size: 1.25rem;
+  /* Adjust as needed */
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Conditional styling */
+.starred {
+  color: #f59e0b;
+  /* Yellow color */
+}
+
+.unstarred {
+  color: #6b7280;
+  /* Gray color */
+}
